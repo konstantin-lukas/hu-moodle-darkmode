@@ -29,50 +29,12 @@
     background-color: white;
     color: black;
 }
-h5, .usertext {
+
+h1, h2, h3, h4, h5 {
     color: white;
 }
-.navbar {
-    background-color: #044fd9 !important;
-}
-.navbar-light .navbar-nav .nav-link {
-    color:white !important;
-}
-.dropdown-item:hover {
-    background: #444 !important;
-}
-.dropdown-menu {
-    padding: 0;
-    border: 0;
-    border-radius: 0 0 10px 10px;
-}
-.dropdown-item, dropdown-item {
-    background: #333 !important;
-    border: none !important;
-    color: white;
-}
-.dropdown-toggle:focus {
-    outline: none !important;
-}
-.dropdown-toggle::after {
-    border-right: .3em solid transparent;
-    border-left: .3em solid transparent;
-    border-top: 4px solid white;
-}
-.icon, h1, h2, h3, h4 {
-    color: white;
-}
-.bg-gray {
-    background-color: #073ea3 !important;
-    border: none;
-    border-radius: 10px;
-}
-button.bg-gray:hover {
-    background-color: white !important;
-}
-button.bg-gray:hover .fa-bars:before {
-    color: #044fd9;
-}
+
+
 .list-group li a {
     background-color: #2d2d2d !important;
     color: white;
