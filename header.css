@@ -1,4 +1,4 @@
-.navbar {
+nav.navbar {
     background-color: #044fd9 !important;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -57,10 +57,48 @@ button.bg-gray:focus .fa-bars:before {
     outline: 0 !important;
     box-shadow: none;
 }
-#popover-region-container-62948b0477b4962948b034cce38, .popover-region-seeall-text, .popover-region-footer-container {
+.popover-region-header-container {
+    background: #222;
+    border: none;
+}
+.popover-region-container, .popover-region-seeall-text, .popover-region-footer-container {
     background-color: #333;
     border: none;
     color: white;
+}
+.message-app {
+    background: #333 !important;
+}
+.card-header {
+    color: white;
+}
+.list-group, .lazy-load-list, .list-group-item {
+    background: #333 !important;
+    
+}
+.list-group strong {
+    color: white;
+}
+.list-group-item:hover, .card-header:hover {
+    background: #444 !important;
+}
+.card-header, .list-group-item {
+    border: none !important;
+}
+.drawer, .bg-white {
+    background: #333;
+}
+.border-bottom, .border-top {
+    border: none !important;
+}
+.popover-region-container {
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+
+#action-menu-1-menu {
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
 }
 .notification-message, .timestamp, .view-more, .popover-region-header-text {
     color: white !important;

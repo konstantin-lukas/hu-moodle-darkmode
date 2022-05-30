@@ -1,3 +1,19 @@
+* {
+    border: none !important;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+}
+*:focus {
+    box-shadow: none !important;
+}
+.bg-white {
+    background: #333 !important;
+}
+textarea.bg-light {
+    background: transparent !important;
+    color: white;
+    border-bottom: solid 1px white !important;
+}
 #page {
     background-color: #222;
 }
@@ -9,9 +25,6 @@
 
 #inst857651 h5, #inst857651 a, #inst857651 div {
     color: white;
-}
-#inst857651 a {
-   font-weight: 900;
 }
 .card {
     background-color: #333;
