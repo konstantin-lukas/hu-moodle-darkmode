@@ -1,0 +1,27 @@
+#page {
+    background-image: url(https://www.adlershof.de/fileadmin/user_upload/bilder/fotos/laser/laser-adlershof-quer-web-1.jpg) !important;
+    background-position: center bottom !important;
+}
+#page-content, div[role=main], #region-main {
+    background: transparent;
+}
+.footnote {
+    display: none;
+}
+#page-login-index #region-main-box .card {
+    background: rgba(0,0,0,.75) !important;
+    border: none !important;
+}
+:not(.p-0).btn {
+    background: #044fd9;
+}
+a {
+    color: #9cbcf7;
+}
+.icon::before {
+    color: white;
+}
+#loginbtn, .form-group {
+    border-radius: 50px;
+    overflow: hidden;
+}

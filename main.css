@@ -94,3 +94,19 @@ h1, h2, h3, h4, h5 {
 #sectionid-963352-title a {
     color: white;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
